@@ -1,0 +1,22 @@
+.container{
+  .detail--movie{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px 0;
+    &__title{
+      h1{
+          color: cornflowerblue;
+      }
+      p{
+        color: cornflowerblue;
+        width: 600px;
+        font-weight: 900;
+        padding: 30px 0;
+      }
+      h3{
+        color: cornflowerblue;
+      }
+    }
+  }
+}

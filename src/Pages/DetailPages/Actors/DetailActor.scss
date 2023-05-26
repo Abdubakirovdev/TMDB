@@ -1,0 +1,44 @@
+
+.container{
+  .actorr{
+    padding: 50px 0;
+    display: flex;
+  }
+  .poster{
+    width: 400px;
+    height: 500px;
+  }
+}
+
+.actor--detail{
+  margin: 10px 50px;
+  h1{
+    padding: 10px 0;
+  }
+  h3{
+    padding: 30px 0;
+  }
+  p{
+    width: 80%;
+  }
+  &__cast{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 900px;
+    &--photo{
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+      img{
+        width: 200px;
+        height: 300px;
+
+      }
+      h3{
+        font-size: 15px;
+      }
+    }
+  }
+}

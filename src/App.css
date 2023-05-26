@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+    color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.movies{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.movie{
+    margin: 20px 20px;
+    width: 222px;
+    height: 497px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 10px 3px dodgerblue ;
+    border: 2px solid grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movies h1{
+    font-size: 20px;
+    padding: 0 10px;
 }
+
+.popular--title h5,h4,h6{
+    padding: 0 10px;
+}
+
+
+
+
+/*HERO*/
+
+.hero{
+    background: #114985;
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 20px 20px;
+}
+
+.hero-nav{
+    padding: 40px 40px;
+}
+.hero-nav h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.hero-nav{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.hero input{
+    width: 90%;
+    height: 50px;
+    margin: 0 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 0 60px;
+    font-size: 20px;
+}
+.hero input::placeholder{
+    font-size: 20px;
+}
+
